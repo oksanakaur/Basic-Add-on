@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(
+        68.6deg,
+          rgb(252, 165, 241) 1.8%,
+          rgb(181, 255, 255) 100.5%
+    );
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #87acd8;
+    background: white;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px 15px;
+    transition: all 150ms ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 5);
+}
+
+button:hover {
+    background: #87acd8;
+    cursor: pointer;
+}
+
+.stuff {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #638ad3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Veranda, sans-serif;
+}
+
+.theme-button {
+    font-size: 10px;
+    background: black;
+    color: white;
+    padding: 5 8px;
+}
+
+.theme-button:hover {
+    color: black;
+    background: white;
+}
+
+.tennis-intro.picture {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.tennis-intro-picture:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+}
+
+.grid {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.grid img:hover {
+    width: 100%;
+    border-radius: 8px;
+    transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+    transform: scale(2);
+}
+
+.dark {
+    background: linear-gradient(112.1deg, #09203f 0% #531895 100%);
+    color: white;
+}
+
+.dark a {
+    background: rgba(255, 255, 255, 0.1);
+}
